@@ -11,6 +11,8 @@ Dynamic Forms is a collection of AngularJS components, an associated Web API plu
 - [Usage](#usage)
 	- [Web Plugin Usage](#web-plugin-usage)
 	- [Directive Only Usage](#directive-only-usage)
+- [Event Usage](#event-usage)
+- [Troubleshooting](#troubleshooting)
 
 ## Database Tables
 Dynamic Forms uses a number of tables to configure the system. All tables belong to the "dyn" schema.
