@@ -11,9 +11,9 @@ Dynamic Forms uses a number of tables to configure the system. All tables belong
 - [DynamicFormList](#dynamicformlist)
 - [DynamicFormOption](#dynamicformoption)
 - [DynamicFormRecordMode](#dynamicformrecordmode)
-- [DynamicFormCustomHtml](#dynamicFormCustomHtml)
+- [DynamicFormCustomHtml](#dynamicformcustomhtml)
 - [DynamicFormEvent](#dynamicformevent)
-- [DynamicFormFieldToEvent](#dynamicFormfieldtoevent)
+- [DynamicFormFieldToEvent](#dynamicformfieldtoevent)
 
 #### DynamicFormAncestor
 This table contains the entity that is the highest in the chain of parent/child relationships. Optional.
@@ -34,8 +34,8 @@ This table configures the source table for the data and form element layout.
 Fields:
 - DynamicFormId (int) - primary key for the table
 - ParentId (int) - identifies the parent dynamic form record
-- DynamicFormAncestorId (int) - foreign key to the [DynamicFormAncestor](#dynamicFormAncestor) table
-- DynamicFormRecordModeId (int) - foreign key to the [DynamicFormRecordMode](#dynamicFormRecordMode) table
+- DynamicFormAncestorId (int) - foreign key to the [DynamicFormAncestor](#dynamicformancestor) table
+- DynamicFormRecordModeId (int) - foreign key to the [DynamicFormRecordMode](#dynamicformrecordmode) table
 - ParentKeyField (varchar(50)) - field name for the parent table lookup value (e.g. "AddressType" for the AltAddress.AddressType field)
 - ParentKeyValue (varchar(25)) - value to match on the ParentKeyField field
 - Name (varchar(50)) - name of the dynamic form
