@@ -1,10 +1,10 @@
 # Dynamic Forms
 
 Dynamic Forms is a collection of AngularJS components, an associated Web API plugin and table-driven configuration that renders html and allows for data to be retrieved, inserted, updated or deleted from an existing table.
-##### [Database Tables](#database-tables)
-##### [Record Mode](#record-mode)
-##### [Form Layout](#form-layout)
-##### [Child Dynamic Forms](#child-dynamic-forms)
+#### [Database Tables](#database-tables)
+#### [Record Mode](#record-mode)
+#### [Form Layout](#form-layout)
+#### [Child Dynamic Forms](#child-dynamic-forms)
 
 ## Database Tables
 Dynamic Forms uses a number of tables to configure the system. All tables belong to the "dyn" schema.
