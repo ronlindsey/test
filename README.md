@@ -7,13 +7,13 @@ Dynamic Forms uses a number of tables to configure the system. All tables belong
 - [DynamicFormAncestor](#dynamicformancestor)
 - [DynamicForm](#dynamicform)
 - [DynamicFormField](#dynamicformfield)
-- [DynamicFormControlType](#dynamicFormFieldControlType)
-- [DynamicFormList](#dynamicFormList)
-- [DynamicFormOption](#dynamicFormOption)
-- [DynamicFormRecordMode](#dynamicFormRecordMode)
+- [DynamicFormControlType](#dynamicformfieldcontroltype)
+- [DynamicFormList](#dynamicformlist)
+- [DynamicFormOption](#dynamicformoption)
+- [DynamicFormRecordMode](#dynamicformrecordmode)
 - [DynamicFormCustomHtml](#dynamicFormCustomHtml)
-- [DynamicFormEvent](#dynamicFormEvent)
-- [DynamicFormFieldToEvent](#dynamicFormFieldToEvent)
+- [DynamicFormEvent](#dynamicformevent)
+- [DynamicFormFieldToEvent](#dynamicFormfieldtoevent)
 
 #### DynamicFormAncestor
 This table contains the entity that is the highest in the chain of parent/child relationships. Optional.
@@ -68,7 +68,7 @@ The following four fields serve as a replacement for the "ProtectedAttribute" on
 - ts (timestamp) - used for concurrency checks
 - IsSetForDelete (bit) - flag for indirect deletes
 
-#### DynamicFormField Table
+#### DynamicFormField
 This table configures the fields for the associated source table.
 
 Fields:
@@ -104,7 +104,7 @@ The following three fields serve as the equivalent of applying "Entity Property 
 - ts (timestamp) - used for concurrency checks
 - IsSetForDelete (bit) - flag for indirect deletes
 
-#### DynamicFormFieldControlType Table
+#### DynamicFormFieldControlType
 This table configures the rendered element for the associated field.
 
 Fields:
@@ -116,7 +116,7 @@ Fields:
 - ts (timestamp) - used for concurrency checks
 - IsSetForDelete (bit) - flag for indirect deletes
 
-#### DynamicFormList Table
+#### DynamicFormList
 This table configures a single list for associated select element options.
 
 Fields:
@@ -128,7 +128,7 @@ Fields:
 - ts (timestamp) - used for concurrency checks
 - IsSetForDelete (bit) - flag for indirect deletes
 
-#### DynamicFormOption Table
+#### DynamicFormOption
 This table configures a single list for associated select element options.
 
 Fields:
@@ -142,7 +142,7 @@ Fields:
 - ts (timestamp) - used for concurrency checks
 - IsSetForDelete (bit) - flag for indirect deletes
 
-#### DynamicFormRecordMode Table
+#### DynamicFormRecordMode
 This table configures whether the rendered form will allow a single or multiple records.
 
 Fields:
@@ -154,7 +154,7 @@ Fields:
 - ts (timestamp) - used for concurrency checks
 - IsSetForDelete (bit) - flag for indirect deletes
 
-#### DynamicFormCustomHtml Table
+#### DynamicFormCustomHtml
 This table configures custom html to be rendered. Custom html is rendered relative to the associated field.
 
 Fields:
@@ -171,7 +171,7 @@ Fields:
 - ts (timestamp) - used for concurrency checks
 - IsSetForDelete (bit) - flag for indirect deletes
 
-#### DynamicFormEvent Table
+#### DynamicFormEvent
 This table contains AngularJS events.
 
 Fields:
@@ -183,7 +183,7 @@ Fields:
 - ts (timestamp) - used for concurrency checks
 - IsSetForDelete (bit) - flag for indirect deletes
 
-#### DynamicFormFieldToEvent Table
+#### DynamicFormFieldToEvent
 Join table for associating fields to events.
 
 Fields:
