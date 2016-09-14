@@ -4,10 +4,13 @@ Dynamic Forms is a collection of AngularJS components, an associated Web API plu
 
 - [Database Tables](#database-tables)
 - [Record Mode](#record-mode)
+	- [Multiple Record Mode](#multiple-record-mode)
+	- [Single Record Mode](#single-record-mode)
 - [Form Layout](#form-layout)
 - [Child Dynamic Forms](#child-dynamic-forms)
 - [Usage](#usage)
 	- [Web Plugin Usage](#web-plugin-usage)
+	- [Directive Only Usage](#directive-only-usage)
 
 ## Database Tables
 Dynamic Forms uses a number of tables to configure the system. All tables belong to the "dyn" schema.
@@ -210,6 +213,7 @@ Fields:
 - initially displays the form with all elements in a readonly/disabled state
 - when a row in the data grid is clicked, the form will populate with the data from the selected record
 - an "Create New [Name]" button is visible
+
 ##### Single Record Mode
 - displays only the form with the form elements populated with the applicable data
 - if more than one record is returned from the server, an informational error message appears stating that the Dynamic Form is in single-record mode, but multiple records were returned
